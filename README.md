@@ -18,9 +18,9 @@ This repository provides the data, experimental setup, and evaluation scripts us
 │   ├── ablation_chunking_blocking_efficiency/   # Ablation on different chunking strategies for blocking efficiency
 │   ├── ablation_metric_robustness/              # Robustness of the metric for detecting mismatches
 │   ├── ablation_threshold_calibration/          # Effect of threshold calibration for cross-encoders
-│   ├── alignment_quality/                       # Experiments for pairwise alignment quality
-│   ├── correctness_completeness/                # Evaluation of correctness and completeness
-│   └── blocking_efficiency/                     # Evaluation of the blocking operator's efficiency
+│   ├── pairwise_alignment_quality/              # Experiments for pairwise alignment quality
+│   ├── text2stories_metric/                     # Evaluation of correctness and completeness
+│   └── blocking_operator/                       # Evaluation of the blocking operator's efficiency
 │
 ├── train/                          # Training scripts for embedding models used in the blocking operator
 └── README.md
