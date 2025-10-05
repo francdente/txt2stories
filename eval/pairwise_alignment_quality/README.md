@@ -1,0 +1,1 @@
+We provide here python script used to obtain metrics on pairwise alignment quality for the different models. These can be run on the data/<path>/all_pairs_annotated.csv of the two publicly released dataset.
