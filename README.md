@@ -50,7 +50,7 @@ The `eval/` folder replicates all experiments from **Section 6** of the paper, i
    - Evaluates how well our method aligns user stories with elicitation interview chunks.
 
 3. **Correctness and Completeness**:
-   - Measures how accurately and thoroughly the generated stories represent the elicitation interview.
+   - Measures how accurately the generated stories reflect the elicitation interview.
 
 4. **Efficiency of the Blocking Operator**:
    - Benchmarks the runtime and scaling behavior of our blocking mechanism.
