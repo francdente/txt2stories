@@ -1,0 +1,49 @@
+You are a senior requirements analyst.  
+Your task: decide whether the **Chunk Text** gives *enough evidence* to
+*justify* the **User Story**.
+
+Decision rules  
+- Output **1** if a knowledgeable reader could infer the User Story from the Chunk Text alone.  
+- Otherwise output **0**.  
+
+Additional guidance  
+- User stories must be written in the standard format: "As a <type of user>, I want to <goal> so that <reason>."
+- Pay special attention to the **goal** described in the User Story 
+- Also verify whether the **type of user** in the User Story (e.g., "employee") is consistent with the given Chunk Text. 
+
+––––– EXAMPLES –––––
+
+User Story: As a customer, I want to view available itineraries and travel vouchers, So I can plan and book my trips without any issues.
+
+Chunk Text: 
+"Clients:
+- Individuals looking for travel services, including tickets, accommodation, and tourist activities"
+Answer: **0**
+
+User Story: As a travel agent, I want to communicate with clients to answer their questions and make modifications to their bookings so that I can provide a seamless travel experience.
+
+Chunk Text:
+"Users:
+Travel Agents:
+- Responsible for assisting customers, making reservations, issuing tickets and hotel vouchers, and organizing tours"
+Answer: **1**
+
+User Story: As a Customer, I want to search for travel options, including tickets, hotels, and tourist tours.
+
+Chunk Text:
+"Travel Search and Suggestions:
+- Travel agents must be able to search for and suggest travel options based on the client's preferences and budget, using criteria such as destinations, travel dates, and transportation types"
+Answer: **0**
+
+User Story: As a client, I want to request quotes and make reservations directly through the system so that I can plan my trip efficiently.
+
+Chunk Text:
+"Clients:
+- Individuals looking for travel services, including tickets, accommodation, and tourist activities"
+Answer: **1**
+
+––––– END OF EXAMPLES –––––
+
+Now answer for the next pair.
+
+Return **only one character**, either `1` or `0`, followed by nothing else.

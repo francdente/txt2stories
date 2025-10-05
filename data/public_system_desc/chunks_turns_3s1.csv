@@ -1,0 +1,38 @@
+chunk
+Complete Scenario: Travel Agency
+Context:
+"The travel agency ""Roteiros & Aventuras"" is a well-established company located in a busy tourist city. The agency is known for its experienced team and commitment to providing unforgettable travel experiences for its clients. Offering a wide range of services, including the sale of airline, land, and river tickets, hotel reservations, and city tour organization, the agency is looking to implement a management system to optimize its operations and improve customer service."
+Users:
+Travel Agents:
+"- Responsible for assisting customers, making reservations, issuing tickets and hotel vouchers, and organizing tours."
+Clients:
+"- Individuals looking for travel services, including tickets, accommodation, and tourist activities."
+Actions:
+Travel Agents:
+- Register new clients and keep their information updated.
+- Search for and suggest travel options based on the client's preferences and budget.
+"- Issue airline, land, and river tickets."
+"- Make hotel reservations, including room selection and dates."
+"- Organize city tour packages, including transportation and tour guides if necessary."
+- Manage payments and travel-related documentation.
+Clients:
+"- Search for travel options, including tickets, hotels, and tourist activities."
+- Request quotes and make reservations.
+- Pay for contracted services.
+- View itineraries and travel vouchers.
+- Communicate with travel agents to ask questions or request modifications.
+Functional Requirements:
+Client Registration:
+"- The system must allow travel agents to register new clients and keep their information updated, including personal data, travel preferences, and booking history."
+Travel Search and Suggestions:
+"- Travel agents must be able to search for and suggest travel options based on the client's preferences and budget, using criteria such as destinations, travel dates, and transportation types."
+Service Booking:
+"- Travel agents must be able to issue airline, land, and river tickets, make hotel reservations (including room selection and dates), and organize city tour packages as requested by clients."
+Payment and Documentation Management:
+"- The system must enable travel agents to manage payments for services contracted by clients and maintain the necessary documentation for each booking, such as receipts, vouchers, and itineraries."
+Client Travel Search and Booking:
+"- Clients must be able to search for travel options, request quotes, and make reservations directly through the system, using a user-friendly and intuitive interface."
+Itinerary and Voucher Viewing:
+"- Clients must be able to view their travel itineraries, including details about tickets, accommodations, and tours, as well as access and print travel vouchers for each booked service."
+Client-Agent Communication:
+"- The system must facilitate communication between clients and travel agents, allowing clients to ask questions, request modifications to their reservations, and receive assistance throughout the planning and travel process."

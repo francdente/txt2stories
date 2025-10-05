@@ -1,0 +1,1 @@
+This folder contains the two publicly available evaluation dataset, and the generated stories for the 15 private student project, however for these 15 projects, the starting elicitation interview cannot be made available.

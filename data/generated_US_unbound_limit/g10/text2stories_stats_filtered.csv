@@ -1,0 +1,7 @@
+Group,stories_supported,stories_supported_pct,chunks_supported,chunks_total,chunks_supported_pct
+Qwen/Qwen3-32B,46,100.0,218,564,38.65
+Qwen/Qwen3-14B,51,94.44,206,564,36.52
+Qwen/Qwen3-8B,47,95.92,188,564,33.33
+Qwen/Qwen3-4B,37,100.0,165,564,29.26
+Qwen/Qwen3-1.7B,24,96.0,135,564,23.94
+Qwen/Qwen3-0.6B,12,80.0,108,564,19.15

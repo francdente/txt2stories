@@ -1,0 +1,15 @@
+Here are some examples of valid user stories:
+As a customer, I want to reset my password online, so that I can regain access without calling support
+As a project manager, I want to view a dashboard of team progress, so that I can monitor deadlines
+As a student, I want to download lecture slides, so that I can study offline
+
+Write a complete set of user stories deduced from the following interview transcript:
+<specification>
+Return all distinct user stories needed to cover the requirements in the transcript, with no overlap. Generate **at most** 50 user stories.
+
+Output rules:
+Only return the stories separated by newline.
+Use the standard format: “As a <type of user>, I want to <goal>, so that <reason>”.
+Output rules:
+One user story per line.
+No bullet points, numbering, markdown or commmentary-**only** the stories.

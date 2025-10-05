@@ -1,0 +1,45 @@
+You are a senior requirements analyst.  
+Your task: decide whether the **Chunk Text** gives *enough evidence* to
+*justify* the **User Story**.
+
+Decision rules  
+- Output **1** if a knowledgeable reader could infer the User Story from the Chunk Text alone.  
+- Otherwise output **0**.  
+
+Note: Each Chunk Text is an excerpt from an informal interview transcript. 
+Expect colloquial language, filler words ("uh", "you know"), and broken grammar; ignore these and focus only on meaning.
+
+Additional guidance  
+- User stories must be written in the standard format: "As a <type of user>, I want to <goal> so that <reason>."
+- Pay special attention to the **goal** described in the User Story 
+- Also verify whether the **type of user** in the User Story (e.g., "employee") is consistent with the given Chunk Text. 
+
+––––– EXAMPLES –––––
+
+User Story: As a team staff member, I want to access statistics about different matches and different players, so that I can strategize better.
+
+Chunk Text: "Spk 2: and you can, you can export or you want to be able to export this data to like journalists or press or whatever. Okay. And this is not available now as far as I understand. Spk 1: Indeed. Spk 0: So the referee uh, data from referee is not at all confidential available very easily. Um there's one more reporting questions. So um is there any kind of reports that you receive or want to receive regarding? Say say I am a team manager. And do you want to report from me saying that I have a new player in my team or this player will be leaving my team? So if we played some tournaments, we had these many events and these many losses, something like that."
+Answer: **0**
+
+User Story: As a match official, I want to report on match events live during the match, so that I do not have to register events twice.
+
+Chunk Text: "Spk 1: Which reports you're referring to? Spk 2: Like other than the budgeting and the financials. Do you receive reports on the games themselves? What's happening with the scheduling? What? Yeah. Spk 1: Okay. So what are currently what is being done in the er in the end the games that the referee probably is writing some kind of report and then you set it over to the IFA. The system, in the system to be Uh I would like them to referee to insert the events that occurred during the game. Real time. So I would expect him to use his mobile phone to record the event in real time. It can be the main referee or the side referee or they can insert and only then can insert event of the of the game. Since we would like to have the other information as reliable as possible. So only the referee can update the event that the country during the game. This can be for example scoring a goal and offside uh red card uh player replacement and things like that. So each event will have its timestamp the event itself and maybe additional information that is required for the specific event."
+Answer: **1**
+
+User Story: As an IFA budget auditor, I want to be able to quickly obtain a system-generated report about a team's budget management, so that I can easily read up on their situation.
+
+Chunk Text: "Spk 1: for the budgeting system? I think the IFA administrative and that's all that's all just the IFA And the teams. Okay. Okay. Okay. Spk 0: Um All right. So fine. Uh I think we have covered the budgeting uh section for now um Now regarding the reports. So it is it is said that you you received reports from various teams and their referees, coaches and referees and everything. So uh say I am a team and I have a referee. So how many reports do you expect? I mean one from the referee. One from the team captain. Or how does it go? Spk 1: Which reports you're referring to?"
+Answer: **0**
+
+User Story: As the IFA, I want all different stakeholders of a game event to be notified in the same way and at the same time, so that I can be more efficient.
+
+Chunk Text: "Spk 1: Yeah, because for the fans there is no direct communication in the fans. They have to, you know to initiate the fans, have to initiate the communication and not like we discussed before with the other notification mechanism. Uh this is one issue. Mm I think this is the main issue will be unable to the fans to register to specific information that they are interested in and then we push them the information. I think this is the main idea. Did this answer your question. Spk 0: Yes, yes you did. Uh and also um for that to be to be system can we uh like if you like, and we incorporate some auto reminders, For example, your reporters do uh the as as we discussed that the team members also have to. The team manager has to support a submit a report to the IFA once a year. So some some kind of automatic reminder notification Spk 1: Yeah yeah  for me, some kind of policy regulation in regards to the for the budget. Uh another issue, defend defend itself can itself can specify uh alerts, so for example, remind me five minutes before the game starts. Okay, So we're registered to the specific and you can, you know when it starts and then you can get an amplification as well."
+Answer: **1**
+
+
+
+––––– END OF EXAMPLES –––––
+
+Now answer for the next pair.
+
+Return **only one character**, either `1` or `0`, followed by nothing else.
