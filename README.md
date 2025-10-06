@@ -8,7 +8,7 @@ This repository provides the data, experimental setup, and evaluation scripts us
 
 ## 📁 Repository Structure
 ```
-├── data_annotation/               #Contains user stories from SP1, SP2. It contains the script that was used to choose the stories to include in the survey for inter-annotator agreement.
+├── data_annotation/               #Contains user stories from SP1, SP2. It contains the script that was used to choose the stories to include in the survey for inter-annotator agreement,and a csv with survey results
 ├── data/
 │   ├── public_interview/          # Publicly released interview dataset
 │   ├── public_system_desc/         # Publicly released system description dataset
