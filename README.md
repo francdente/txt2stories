@@ -59,3 +59,5 @@ The `eval/` folder replicates all experiments from **Section 6** of the paper, i
 
 ## ▶️ Requirements
 Requirements are in pyproject.toml (not all requirements are strictly needed for running these scripts)
+
+The code was partly developed with the help of AI tools
