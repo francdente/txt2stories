@@ -1,0 +1,58 @@
+"User Story";"Chunk";"Source"
+"As a patient, I want to book appointments online, so that I don’t have to call PreDent";"00:16:04
+Speaker 2: Um, do you want to keep this flow of, uh, work, like planning, uh, in the future system? So still make an appointment right after the, uh, current appointment. Uh, just making sure that everything is planned immediately. Uh, or do you want to switch over to a more remote planning system that they do it from home? Uh, because. 
+00:17:41 Speaker 3: And at least have the opportunity to, to have a remote system that the patient can log in and make their own appointments and, uh, based based on the information that. So it's easily changed, even if you have, like a premade appointment.";1
+"As a patient, I want to look at the appointment information, so that I know what the next appointment is going to entail.";"00:16:30
+Speaker 1: Um, yeah, I think because since we sort of envision for the future, like this intelligent planning system that, um, yeah, it depends on how quick it would work. But maybe since you also mentioned that we value, like, the patient's control over their own appointments and stuff and that they are very informed. So maybe a more remote system would be better since, uh, that way if they have had an appointment, uh, just all their information can just be put into the system if there's any new findings or whatever, maybe some x rays or whatever takes some takes take longer to process. And then maybe the patients afterwards get get an email like, okay, um, based on this, uh, you're, you're recommended to have an appointment for, for example, a dental hygienist or whatever in like six months or in four months or in two months or, so, maybe. Yeah. To have them. Better have them be better informed. It might be better if it's just an email, because then they can just sit down and take the time to read. Okay. What has the system, like, come up with for me and. Yeah.
+00:21:18 Speaker 3: I think it's the, the the scheduling and the information that you get from the from the system, like, uh, the, the predictions of, uh, what you need for procedures and what it's going to cost and, uh, um, maybe even some advice on insurance that you maybe need to step it up to the.";1
+"As an employee, I need to check the procedures recommended by the system, so that no mistakes get made in the planning.";;"1, 2"
+"As an employee, I want to be able to approve good recommendations, so that patients can receive them.";;"1, 2"
+"As an employee, I want to decline recommendations, so that the wrong recommendations do not get sent to the patients";;"1, 2"
+"As an employee, I want to have a summary of all the recommendations, so that I can quickly check them";;1
+"As an employee, I want to be able to make changes in the recommendations I check, so that I can easily correct the mistakes.";;1
+"As a patient, I want many different options for appointments, so that I can choose what time fits best for me.";;1
+"As a patient, I want to be informed about what procedure is next for me, so that I know what to expect.";;1
+"As a patient, I want to know what the next appointment is going to cost, so that I can keep track of my finances.";;1
+"As a patient, I want the system to only recommend one type of procedure at a time, so that I do not get overwhelmed";;1
+"As a patient, I want to be able to choose other time slots than recommended, so that I can set an appointment for when it best suits me";;1
+"As a patient, I want to be able to decline the recommendations, so that I can make an appointment for when I see fit.";;1
+"As an employee, I want to update the patient dossier after each appointment, so that the dossiers are always up to date.";;2
+"As a patient, I want to cancel my appointment online, so that I don’t have to do that by phone.";;1
+"As a patient, I want to reschedule my appointment online.";;1
+"As a patient, I want to be able to set the appointment with details in my own calendar, so that I can keep track of it in the future.";;1
+"As a patient, I want to be notified if something about the appointment changes, so that I am always up to date.";;"1, 2"
+"As a patient, I want to be able to book appointments without recommendations, so that I can make an appointment when I want";;"1, 2"
+"As a patient, I want to be able to make appointments in case of an emergency, so that can always come by quickly.";;"1, 2"
+"As a front desk employee, I want to set appointments for patients, so that I can help patients who don’t want to use the new system.";;2
+"As an employee, I want to block specific parts of my schedule so that I don’t get booked during personal or break time.";;"1, 2"
+"As an employee, I want to know the patient's medical history for the appointment, so that there will be no complications during the procedure.";;"1, 2"
+"As a dentist, I want to set appointments for specialised procedures myself, so that I know for certain the correct appointments are made for the patients";;2
+"As an employee, I want to know the procedures for each appointment, so that I know how to prepare for the appointments.";;1
+"As an employee, I want to be able to see all appointments made with me, so that I can check who had set appointments with me";;1
+"As an employee, I want to see the patient dossier before the appointment, so that I can be prepared.";;"1, 2"
+"As an employee, I want to be reminded about medical details of patients, so that I don’t make any mistakes that could endanger the patients.";;2
+"As an employee, I want to be able to cancel appointments, so that I am able to have free slots in case of emergency.";;"1, 2"
+"As an employee, I want to keep open slots in each day, so that there is room for emergency procedures";;1
+"As an employee, I want to contact patients if they have not set an appointment, so that we can make sure they do not forget to make appointments.";;1
+"As an employee, I want to check the appointments not made using recommendations, so that we can check why they set an appointment with us.";;2
+"As a patient, I want to be reminded of the specifics of the appointment with the dentist, so that I know what the appointment is going to entail.";;1
+"As a patient, I want to be reminded of an appointment, so that I don’t miss the appointment";;"1, 2, lecturer"
+"As a patient, I want to be reminded of the name of the practitioner, so that I know who I am meeting with.";;1
+"As an employee, I only want to see the recommendation for the patients I have seen today, so that I do not get information about patients I have not seen.";;"1, peer"
+"As an employee, I want to be able to see why some procedures are recommended, so that I know the reasoning when checking the recommendations.";;1
+"As an employee, I want to know if there are alternate recommendations for the patients, so that I can check if this is the best option.";;1
+"As an employee, I want to pay extra attention to recommendations for special procedures, so that I can check if they are really needed.";;"1, 2"
+"As a patient, I want to know what procedures are covered by my insurance policy, so that I know if there will be unforeseen costs.";;1
+"As a patient, I want the recommendations to know my current dental status, so that it knows what I need for my next appointment.";;1
+"As a patient, I want detailed information about the recommended procedure, so that I know what is going to happen in the next appointment.";;1
+"As a patient, I want recommendations that keep my allergies in mind, so that no recommendations get made that could be bad for my health.";;"1, 2"
+"As an employee, I want to be able to quickly note down what happened in the appointments, so that administering patient data does not take too long.";;2
+"As an employee, I want the important patient data at immediate disposal for each appointment, so that I don’t miss important details.";;"1, 2"
+"As an employee, I want to store x-ray pictures for each patient, so that we can compare dental health to previous appointments.";;1
+"As an employee, I want to be able to edit the existing patient dossier, so that I can add new important information.";;2
+"As an employee, I want new recommendations to be generated when I update the dental records, so that the patients can always create new appointments when new information is added to the system.";;2
+"As an employee, I want access to all the different procedures, so that I can check-up on the details of every procedure.";;1
+"As an employee, I want the system to know what procedures I can perform, so that there are no mistakes in what I can do for the patients.";;2
+"As a patient, I want my insurance policy connected to PreDent, so that coverage of appointments gets handled automatically.";;1
+"As a patient, I want recommendations based on my medical history, so that I only get recommended procedures that make sense for me.";;"1, 2"
+"As a patient, I want to see my own dossier, so that I know what PreDent knows about me.";;1
