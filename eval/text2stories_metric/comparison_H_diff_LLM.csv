@@ -1,0 +1,8 @@
+,user_story,functionality
+0,"As an event manager, I want to assign a start- and end date-and-time to an event.",
+1,"As an event manager, I want to assign staff to work on an event, such that these people will get information about this event.",
+2,"As an event coordinator, I want to have access to artists’ contact information.",
+8,"As an Employee, I want to view the events I am assigned to, such that I can prepare accordingly.",
+12,"As an Employee, I want to primarily see the details relevant to my role, such that information overload is prevented.",
+13,"As an artist, I want to have access to information about the events I'll play at.",
+15,"As an employee, I want to get notifications only for emergencies and imminent deadlines, such that the importance of notifications is not undercut by their frequency.",

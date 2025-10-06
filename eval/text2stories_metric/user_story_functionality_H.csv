@@ -1,0 +1,40 @@
+user_story,functionality
+"As an event manager, I want to create new events in the system such that all staff can see the upcoming event.",Create new events
+"As an event manager, I want to assign a start- and end date-and-time to an event.",Manage events date
+"As an event manager, I want to assign artists to an event.",Manage artists/events
+"As an event manager, I want to assign a stage to an event.","Manage events, assign stage"
+"As an event manager, I want to assign staff to work on an event, such that these people will get information about this event.",Assign Staff to event
+"As an artist, I want to upload my rider with event requirements to the system.",Upload Rider
+"As an event manager, I want to approve/reject a rider when it's first uploaded before its elements are sent to staff, such that riders with many mistakes do not bother other staff.",Approve/Reject Rider as event manager
+"As an employee, I want to see the parts of a newly added rider that concern my role prioritized.",View Information
+"As an artist, I want to see the rejected/approved status of my rider.",View Rider status
+"As an event coordinator, I want to see at which dates no events are planned yet, such that artists can be contacted to play at this date.",View free dates
+"As an event coordinator, I want to see which artists we have worked with in the past, such that I might contact them for the planning of future events.",View past artists
+"As an event coordinator, I want to have access to artists’ contact information.",View artist information as event coordinator
+"As an Employee, I want to view the events I am assigned to, such that I can prepare accordingly.",View events for worker
+"As an employee, I want to have a calendar overview of all events I work on.",View events for worker
+"As an Employee, I want to primarily see the details relevant to my role, such that information overload is prevented.",Vied details for worker
+"As an employee, I want to see the to-do/in progress/done status of all elements of a rider.",View Rider Status as employee
+"As an employee, I want to set the to-do/done status of a rider element, such that others can see whether this still has to be picked up.",Modify Rider Status as employee
+"As an employee, I want to see an overview of all inventory items and their availability, such that I know whether I can accept rider requests.",View Inventory Information
+"As an employee, I want to reserve inventory items for specific events.",Assign inventory itmes
+"As an employee, I want to request purchasing/renting missing inventory items",Request inventory items
+"As an artist, I want to have access to information about the events I'll play at.",View event information as artist
+"As an artist, I want to see my riders in the events I play at.",View riders as artist
+"As an event manager, I want to have access to all available information about an event, such that I can ensure everything is running smoothly.",View full information as event manager
+"As an artist, I want to be able to request changes to the rider once it is in the system, such that a change I need can be communicated.",modify rider as artist
+"As an employee, I want to see rider change requests that concern my role.",view rider modifc req as employee
+"As an employee, I want to reject/accept rider change requests that concern my role.",Approve/reject rider changes as employee
+"As an employee, I want to be able to give a reason for rejecting a rider change request, such that the artist knows why this has happened.",Explain rider reject as employee
+"As an artist, I want to see whether my request to change the rider has been approved/rejected.",View rider status as artist
+"As an employee, I want to be able to change the rider, such that changes in my department can be communicated to the artist.",Modify rider as employee
+"As an employee, I want to be able to give a reason for changing a rider, such that the artist knows why this was done.",Explain rider modification as employee
+"As an artist, I want to be notified of rider changes made by the venue.",Notified after rider change as artist
+"As an event manager, I want to be able to see the history of rider changes, such that I know what had been changed at what time and by whom.",View riders history as manag
+"As an employee, I want to publish emergency events into the system, such that the roles responsible for its category can get notified.",Create emergency events as employee
+"As an event manager, I want to publish issues that cannot be fixed in time to the system, such that the artist's team gets notified to pick this up themselves.",Create emergency events as event manag
+"As an employee, I want to get notifications only for emergencies and imminent deadlines, such that the importance of notifications is not undercut by their frequency.",Notified for emerg and deadlines as employee
+"As an employee, I want to add time estimates to tasks assigned to me.",Manae task time as employee
+"As a planner, I want to view the staff's time estimates of all tasks, such that a good planning can be made.",View employees task time as planner
+"As a planner, I want to assign times to tasks, such that it is clear to the responsible staff when their tasks must be carried out.",Assign task time as planner
+"As an employee, I want to have an overview of what tasks have to be done at what time by my team.",View tasks overview as employee

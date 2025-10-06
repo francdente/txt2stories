@@ -1,0 +1,20 @@
+,user_story_LLMs,functionality,New,user_story_Human (corresponding func)
+0,"As a venue manager, I want to create an event, so that I can coordinate all necessary details for the event.  ",Create new events,No,"As an event manager, I want to create new events in the system such that all staff can see the upcoming event."
+11,"As a venue manager, I want to check venue availability in a calendar, so that I can prevent overlapping bookings.  ",Venue availability calendar,Yes,
+13,"As a venue manager, I want to reserve a date for an event, so that I can prevent overlapping bookings.  ",Manage event dates,No,"As an event manager, I want to assign a start- and end date-and-time to an event."
+14,"As an artist, I want to submit a rider, so that the venue knows my technical requirements.  ",Upload rider,No,"As an artist, I want to upload my rider with event requirements to the system."
+30,"As a venue manager, I want to approve a rider, so that the event can proceed with confirmed requirements.  ",Approve Rider,No,"As an event manager, I want to approve/reject a rider when it's first uploaded before its elements are sent to staff, such that riders with many mistakes do not bother other staff."
+35,"As a venue manager, I want to reject a rider, so that incompatible requests are flagged early.  ",Reject Rider,No,"As an event manager, I want to approve/reject a rider when it's first uploaded before its elements are sent to staff, such that riders with many mistakes do not bother other staff."
+39,"As a technical staff member, I want to view rider details relevant to my role, so that I can focus on my responsibilities.  ",View details for worker,No,"As an Employee, I want to primarily see the details relevant to my role, such that information overload is prevented."
+41,"As a venue manager, I want to track rider changes, so that I can audit who made what modifications.  ",View Rider history,No,"As an event manager, I want to be able to see the history of rider changes, such that I know what had been changed at what time and by whom."
+42,"As a venue manager, I want to send a contract to an artist, so that legal terms are formalized before the event.  ",Manage legal contract,Yes,
+44,"As a venue manager, I want to manage multiple events simultaneously, so that parallel planning is organized.  ",Manage event dates,No,"As an event manager, I want to assign a start- and end date-and-time to an event."
+50,"As an artist, I want to request event adjustments, so that my needs can be addressed before the event.  ",Request event adjustments,Yes,
+51,"As a venue manager, I want to generate a rider template, so that artists can submit standardized information.  ",Generate rider template,Yes,
+56,"As a venue manager, I want to handle multiple stages within a venue, so that events in different spaces are tracked separately.  ","Manage events, assign stage",No,"As an event manager, I want to assign a stage to an event."
+66,"As an artist, I want to submit a digital rider, so that the venue can extract and process requirements automatically.  ",Upload rider,No,"As an artist, I want to upload my rider with event requirements to the system."
+70,"As an artist, I want to request venue-specific equipment, so that my performance needs are met.  ",Request equipment,Yes,
+73,"As a venue manager, I want to manage event permissions, so that sensitive information is restricted.  ",Manage event permissions,Yes,
+77,"As an artist, I want to communicate urgent requests, so that the venue can respond quickly.  ",Request urgent adjustments,Yes,
+79,"As a technical staff member, I want to access historical rider data, so that I can reference past events for consistency.  ",View Rider history,No,"As an event manager, I want to be able to see the history of rider changes, such that I know what had been changed at what time and by whom."
+82,"As a venue manager, I want to manage event contracts, so that legal agreements are stored securely.  ",Manage legal contract,Yes,
