@@ -16,7 +16,7 @@ from vllm import LLM, SamplingParams
 # --------------------------
 # Load your dataframes
 # --------------------------
-BASE_PATH = "paper/data/public_interview"
+BASE_PATH = "data/public_interview"
 test_df = pd.read_csv(f"{BASE_PATH}/all_pairs_annotated.csv")  # columns: [User Story, Chunk Text, Score]
 user_df = pd.read_csv(f"{BASE_PATH}/user_stories.csv", sep=";")    # column: [User Story]
 chunk_df = pd.read_csv(f"{BASE_PATH}/chunks_turns_3s1.csv")        # column: [Chunk Text]

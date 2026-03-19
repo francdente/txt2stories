@@ -64,7 +64,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "4"  # adjust to your GPU(s)
 # ──────────────────────────────────────────────────────────────────────────────
 # 1. I/O paths ─────────────────────────────────────────────────────────────────
 
-BASE_PATH = "paper/data/public_system" #base_path where system_prompt is
+BASE_PATH = "data/public_system_desc" #base_path where system_prompt is
 INPUT_PATH = f"{BASE_PATH}/all_pairs_annotated.csv" #dataset to on which to evaluate
 OUTPUT_PATH = f"{BASE_PATH}/stories_and_chunks_scored_llama3_v1.csv" #output path for the score given by matcher llama
 SYSTEM_PROMPT_PATH = f"{BASE_PATH}/system_prompt_v1_final_metric.txt"

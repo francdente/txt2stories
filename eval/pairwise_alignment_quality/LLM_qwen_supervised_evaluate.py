@@ -52,7 +52,7 @@ import time
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "4"
 
-BASE_PATH = "paper/data/public_interview"
+BASE_PATH = "data/public_interview"
 
 # ---------- 1. I/O -----------------------------------------------------------
 INPUT_PATH  = f"{BASE_PATH}/all_pairs_annotated.csv"

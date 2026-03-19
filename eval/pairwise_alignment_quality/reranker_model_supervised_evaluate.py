@@ -60,7 +60,7 @@ from sklearn.metrics import (
     confusion_matrix, f1_score, precision_recall_curve, average_precision_score
 )
 from scipy.stats import pearsonr
-BASE_PATH = "paper/data/public_interview"
+BASE_PATH = "data/public_interview"
 EVAL_DF_PATH = f"{BASE_PATH}/all_pairs_annotated.csv"
 SYSTEM_PROMPT_PATH = f"{BASE_PATH}/system_prompt_v1_final_metric.txt"
 model_name = "Qwen/Qwen3-Reranker-0.6B"
@@ -271,8 +271,8 @@ def compute_logits_batched(pairs, batch_size=16):
 
 if CALIBRATE:
     # 1. Calibrate threshold on validation set
-    df_1 = pd.read_csv("paper/data/g01/g01_3s1_annotated_final.csv")
-    df_2 = pd.read_csv("paper/data/g04/g04_3s1_annotated_final.csv")
+    df_1 = pd.read_csv("data/g01/g01_3s1_annotated_final.csv")
+    df_2 = pd.read_csv("data/g04/g04_3s1_annotated_final.csv")
     val_df = pd.concat([df_1, df_2])
     val_df["RerankerScore"] = compute_logits_batched(
         [format_instruction(task, r["User Story"], r["Chunk Text"]) for _, r in val_df.iterrows()],

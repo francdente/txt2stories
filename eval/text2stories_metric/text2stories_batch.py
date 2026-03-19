@@ -1,6 +1,6 @@
 '''
-uv run paper/eval/text2stories_metric/text2stories_batch.py \
---configs paper/eval/text2stories_metric/config.txt \
+uv run eval/text2stories_metric/text2stories_batch.py \
+--configs eval/text2stories_metric/config.txt \
 --embed_model Qwen/Qwen3-Embedding-0.6B \
 --model_name Qwen/Qwen3-32B \
 --top_k 1000

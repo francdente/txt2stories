@@ -30,7 +30,7 @@ with prompt_name="query" for the "User Story" side. If the model does not suppor
 prompting, it falls back automatically to a standard encode.
 
 Usage example:
-    uv run paper_final/eval/embedding_model_supervised_evaluate.py \
+    uv run eval/pairwise_alignment_quality/embedding_model_supervised_evaluate.py \
         --model <path> \
         --test-df <path> \
         --eval-df <path> \
@@ -281,7 +281,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--test-df",
         type=str,
-        default="paper/data/g04/g04_3s1_annotated_final.csv",
+        default="data/g04/g04_3s1_annotated_final.csv",
         help="Dataframe to use as test set",
     )
     return parser.parse_args()
