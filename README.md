@@ -1,8 +1,8 @@
-# 🧩 Reproducibility Package for [Text2Stories]
+# 🧩 Reproducibility Package for [Inter2US]
 
 This repository provides the data, experimental setup, and evaluation scripts used in the paper:
 
-> **[Text2Stories: Evaluating the Alignment Between Stakeholder Interviews and Generated User Stories]**  
+> **[Automated Alignment between Elicitation Interviews and Requirements]**  
 
 ---
 
